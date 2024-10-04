@@ -1,0 +1,40 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.intro-section {
+    margin-bottom: 30px;
+}
+
+.shopping-lists-overview {
+    border-top: 1px solid #2acc09;
+    padding-top: 20px;
+}
+
+footer {
+    margin-top: 50px;
+}
