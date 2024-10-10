@@ -1,22 +1,28 @@
 {
-    "users": [
-
-
-        {
+    "users": [{
             "id": "147b",
             "username": "jhgjh",
             "email": "tut@gmail.com",
-            "password": "jhgjh",
+            "password": "12345",
             "name": "Gmail ",
-            "surname": "Mail",
+            "surname": "Tony",
             "cellNumber": "12345667789"
+        },
+        {
+            "id": "a983",
+            "username": "uou",
+            "email": "uouO@uon",
+            "password": "321",
+            "name": "321",
+            "surname": "321",
+            "cellNumber": "321"
         }
     ],
     "lists": [{
-        "id": "21b8",
-        "name": "Carrots",
-        "quantity": "R7",
-        "notes": "Buy More w e cook Today",
-        "category": "Vegetable"
-    }]
+            "id": "6246"
+        },
+        {
+            "id": "6cea"
+        }
+    ]
 }

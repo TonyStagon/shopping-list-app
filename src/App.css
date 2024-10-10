@@ -11,3 +11,146 @@ body.dark {
     background-color: #333333;
     color: #ffffff;
 }
+
+
+/* ShoppingListPage.css */
+
+
+/* Container for the shopping list page */
+
+.shopping-list-container {
+    max-width: 800px;
+    /* Set a maximum width for the container */
+    margin: 0 auto;
+    /* Center the container */
+    padding: 20px;
+    /* Add some padding */
+}
+
+
+/* Form styling */
+
+form {
+    display: flex;
+    /* Use flexbox for layout */
+    flex-direction: column;
+    /* Arrange items in a column */
+    gap: 10px;
+    /* Space between form fields */
+    margin-bottom: 20px;
+    /* Space below the form */
+}
+
+
+/* Input fields styling */
+
+input[type="text"],
+input[type="file"] {
+    padding: 10px;
+    /* Add padding for comfort */
+    border: 1px solid #ccc;
+    /* Light border */
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+
+/* Button styling */
+
+button {
+    padding: 10px;
+    /* Add padding for buttons */
+    border: none;
+    /* Remove default border */
+    border-radius: 5px;
+    /* Rounded corners */
+    background-color: #4CAF50;
+    /* Green background */
+    color: white;
+    /* White text */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+}
+
+
+/* Button hover effect */
+
+button:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
+
+
+/* List items styling */
+
+ul {
+    list-style: none;
+    /* Remove default list styling */
+    padding: 0;
+    /* Remove padding */
+}
+
+
+/* Individual list item styling */
+
+.shopping-list-item {
+    border: 1px solid #eee;
+    /* Light border */
+    border-radius: 5px;
+    /* Rounded corners */
+    padding: 15px;
+    /* Add padding */
+    margin-bottom: 15px;
+    /* Space between list items */
+    display: flex;
+    /* Use flexbox for list item layout */
+    flex-direction: column;
+    /* Arrange items in a column */
+    gap: 10px;
+    /* Space between elements */
+}
+
+
+/* Image styling */
+
+img {
+    width: 100px;
+    /* Set a width for the image */
+    height: 100px;
+    /* Set a height for the image */
+    object-fit: cover;
+    /* Cover the area without stretching */
+}
+
+
+/* Navbar styling */
+
+.navbar {
+    display: flex;
+    /* Use flexbox for navbar */
+    justify-content: space-between;
+    /* Space out items */
+    padding: 10px;
+    /* Padding around the navbar */
+    background-color: #f8f8f8;
+    /* Light background */
+    border-bottom: 1px solid #ddd;
+    /* Border below navbar */
+}
+
+
+/* Navbar links styling */
+
+.navbar a {
+    text-decoration: none;
+    /* Remove underline from links */
+    padding: 10px;
+    /* Padding around links */
+    color: #333;
+    /* Dark color for text */
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    /* Background on hover */
+}
